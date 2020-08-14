@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/films")
+@CrossOrigin(origins = "http://localhost:3000")
 public class FilmController {
     @Autowired
     private FilmService filmService;
